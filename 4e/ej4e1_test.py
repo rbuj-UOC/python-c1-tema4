@@ -10,7 +10,7 @@ import pytest
 import requests
 
 # URL de la aplicación
-API_URL = "http://localhost:5000"
+API_URL = "http://localhost:5001"
 
 def test_api_is_running():
     """Verifica que la API está disponible y responde correctamente"""

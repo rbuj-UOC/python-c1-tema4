@@ -21,9 +21,17 @@ El objetivo de esta práctica es que los estudiantes aprendan a crear un `Docker
     *   Una vez que el `Dockerfile` esté completo, deberán construir la imagen Docker utilizando el comando `docker build`.
     *   Asignen un nombre significativo a su imagen (por ejemplo, `mi-app-flask-practica`).
 
+```sh
+docker build -t mi-app-flask-practica .
+```
+
 3.  **Ejecutar el Contenedor Docker:**
     *   Finalmente, deberán ejecutar un contenedor a partir de la imagen que crearon.
     *   Asegúrense de mapear el puerto del contenedor al puerto de su máquina local para poder acceder a la aplicación desde el navegador.
+
+```sh
+docker run -p 5001:5001 mi-app-flask-practica
+```
 
 ## Verificación:
 
